@@ -26,13 +26,26 @@ function hideElement() {
   //<ul class="nav flex-row tm-social-links">  <!--todo: Hide social links-->
   const socLinks = document.getElementById("social-links");
   socLinks.style.display = "none";
-  console.log("social links style:", socLinks.style);
 }
 
 function addText() {
   //<p id="intropara1" class="tm-color-gray">  <!--todo: Add customer company introduction text about their founding year-->
+  const introPara1 = document.getElementById("intropara1");
+  introPara1.textContent = "Alliance was founded in 1931 by Albert Daniels.";
+
   //<p id="intropara2" class="mb-0 tm-color-gray"> <!--todo: Add customer company introduction text about what they lead in-->
+  const introPara2 = document.getElementById("intropara2");
+  introPara2.textContent = "The company is a leader in P.C. Manufacturing";
+
   //<p id="aboutpara1" id="a" class="mb-5"> <!--todo: Add customer company about text-->
+  const aboutPara1 = document.getElementById("aboutpara1");
+  aboutPara1.textContent = "We deliver the best service this side of creation";
+
   //<p id="aboutpara2"> <!--todo: Add customer company motto text-->
+  const aboutPara2 = document.getElementById("aboutpara2");
+  aboutPara2.textContent = "Our motto is satisfaction guaranteed";
+
   // <p id="addresspara" class="mb-3"> <!--todo: Add customer company phone number text-->
+  const addressPara = document.getElementById("addresspara");
+  addressPara.textContent = "1-800-565-5656";
 }
